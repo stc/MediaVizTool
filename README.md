@@ -1,10 +1,10 @@
 # MediaVizTool
-Visualizing image sequences from different viewpoints
+Visualizing image sequences from different viewpoints. 
 Compatibility: Processing 3+
 
 ## Dependencies
-OpenCV
-Video Library
+- OpenCV
+- Video Library
 
 ## How to
 Add dependencies: open the sketch. Click tools/add tool, go to libraries tab. Find Video (by the official Processing Foundation), select install. Find OpenCV for Processing, select install.
@@ -13,11 +13,11 @@ Run sketch: place a video in the data folder, rename the filename in MediaVizToo
 
 Keys:
 
-P: playback movie
-R: record dataset from your movie
-1: time sequence visualization
-2: brightness based visualization
-3: movement intensity based visualization (based on optical flow)
+- P: playback movie
+- R: record dataset from your movie
+- 1: time sequence visualization
+- 2: brightness based visualization
+- 3: movement intensity based visualization (based on optical flow)
 
 ## Examples
 
