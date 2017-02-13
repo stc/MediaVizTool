@@ -27,7 +27,7 @@ Visualization, based on brightness value of each image in the sequence:
 Visualization, based on movement value between each corresponding image in the sequence:
 ![movement based visualization](https://cloud.githubusercontent.com/assets/270431/20515185/af94f344-b090-11e6-9539-85d046081f90.jpg)
 
-# DataVizTool
+# ColorVizTool
 Visualizing point cloud based on color values of each point
 
 ## Examples
