@@ -24,9 +24,11 @@ class Node {
     extractDominantColorFromImage();
 
     //dirty hack for extract value from filename
-    String[] s1 = imagename.split("_");
-    String s2 = s1[1];
-    String s3 = s2.substring(0, s2.length()-4);
+    int i = imagename.lastIndexOf("_");
+    String[] s0 =  {imagename.substring(0, i), imagename.substring(i)};
+    String[] s1 = s0[1].split("_");
+    String   s2 = s1[1]; 
+    String   s3 = s2.substring(0, s2.length()-4);
     movement = Integer.parseInt(s3);
   }
 
